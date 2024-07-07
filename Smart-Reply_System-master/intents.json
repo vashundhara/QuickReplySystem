@@ -1,0 +1,74 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["Diuretics,Anticoagulants,Opioid analgesics,Positive inotropes "],
+         "context": [""]
+        },
+        {"tag": "paracet",
+         "patterns": ["paracetamol", "adverse effects of paracetamol", "paracetamol adverse effects"],
+         "responses": ["fever with nausea, stomach pain, and loss of appetite","dark urine, clay-colored stools","jaundice (yellowing of the skin or eyes)"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "heart_rate",
+         "patterns": ["what is the normal heart rate","normal heart rate","heart rate"],
+         "responses": ["Adults:60 to 100 beats per minute,Child:70 and 100 bpm"],
+         "context": [""]
+        },
+        {"tag": "Body_Mass_Index",
+        "patterns": ["ideal bmi", "ideal Body mass index","What is the ideal Body Mass Index"],
+        "responses": ["Adults:18.5 to 24.9,Children(2 to 18yrs):depends on age and gender"],
+        "context": [""]
+        },
+        {"tag": "cov19",
+         "patterns": ["common indications of covid19", "covid19","What are the common indications of COVID19" ],
+         "responses": ["cough fever","tiredness","difficulty in breathing and dry cough"],
+         "context": [""]
+        },
+        {"tag": "heart_attack",
+         "patterns": ["easy action for heart attack", "What is the fastest action for heart attack" ],
+         "responses": ["Patient can be given aspirin which gives immediate relaxtion for the same."],
+         "context": [""]
+        },
+        {"tag": "sugar_level",
+         "patterns": ["normal fasting sugar level", "what is the normal fasting sugar level"],
+         "responses": ["A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is normal."],
+         "context": [""]
+        },
+        {"tag": "artery",
+         "patterns": ["Which artery is palpated to check the pulse in a patient", "pulse","Artery" ],
+         "responses": ["Radial Artery is palpated to check the pulse in a patient"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure2",
+         "patterns": ["What is normal blood pressure", "normal blood pressure" ],
+         "responses": ["Optimal, or normal blood pressure is 120/80."],
+        "context": [""]
+        }
+        
+   ]
+}
